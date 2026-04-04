@@ -8,5 +8,6 @@ __pycache__/
 .venv/
 venv/
 pip-wheel-metadata/
+.ipynb_checkpoints/
 
 majorP/

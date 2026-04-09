@@ -35,7 +35,7 @@ for i in range(1, 10):   # pages 1–9
 # ----------- AJAX FRAGMENT PAGES (10+) -----------
 fragment_url = "https://www.thehindu.com/news/national/fragment/showmoredesked?page="
 
-for i in range(10, 251):   # pages after 9
+for i in range(10, 1001):   # pages after 9
     url = fragment_url + str(i)
     print("Scraping fragment page:", url)
 
@@ -52,7 +52,7 @@ for i in range(10, 251):   # pages after 9
 
 base_url = "https://indianexpress.com/section/political-pulse/"
 
-for i in range(1, 251):
+for i in range(1, 1001):
 
     if i == 1:
         url = base_url

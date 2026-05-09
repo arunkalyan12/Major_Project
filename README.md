@@ -1,6 +1,3 @@
-# README.md
-
-````md
 # Sarcasm Detection System for Indian Political Headlines
 
 This project is an end-to-end sarcasm detection system designed for Indian political headlines using Machine Learning, Deep Learning, and Transformer-based NLP models.
